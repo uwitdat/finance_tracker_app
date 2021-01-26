@@ -1,0 +1,20 @@
+<% if notice %>
+
+     <div class="alert alert-primary" role="alert">
+        <button type="button" class="btn btn-outline-dark">
+            <span aria-hidden="true">&times;</span> 
+     </button>
+        <%= notice %>
+     </div>
+<% end %>
+
+ <% if alert %>
+
+     <div class="alert alert-danger" role="alert">  
+        <button type="button" class="btn btn-outline-dark">
+            <span aria-hidden="true">&times;</span>   
+     </button>
+        <%= alert %> 
+     </div>
+<% end %>
+
